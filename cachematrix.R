@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-# create a makeCacheMatrix object
+# This function needs library(MASS)
 makeCacheMatrix2 <- function(x = matrix()) {
     
     m <- NULL
