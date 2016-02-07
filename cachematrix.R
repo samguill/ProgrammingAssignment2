@@ -64,3 +64,9 @@ cacheSolve <- function(x, ...) {
     x$setInv(m)
     m
 }
+
+# To test this you can use:
+
+# a <- 1400
+# m <- makeCacheMatrix(matrix(rnorm(a*a,6),a,a))
+# cacheSolve(m)
